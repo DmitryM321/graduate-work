@@ -1,56 +1,85 @@
 package ru.skypro.homework.service;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.server.ResponseStatusException;
 import ru.skypro.homework.dto.AdsDTO;
 import ru.skypro.homework.dto.CreateAdsDTO;
 import ru.skypro.homework.dto.FullAdsDTO;
 import ru.skypro.homework.mapper.AdsMapper;
-import ru.skypro.homework.mapper.CommentMapper;
 import ru.skypro.homework.model.Ads;
-import ru.skypro.homework.model.Comment;
+import ru.skypro.homework.model.Image;
 import ru.skypro.homework.model.User;
 import ru.skypro.homework.repository.AdsRepository;
-import ru.skypro.homework.repository.CommentRepository;
 import ru.skypro.homework.repository.ImageRepository;
 import ru.skypro.homework.repository.UserRepository;
 
-import javax.transaction.Transactional;
-import java.time.Instant;
-import java.util.Collection;
-@Transactional
-@AllArgsConstructor
+import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
+
+
 @Service
+@RequiredArgsConstructor
+@Transactional
 public class AdsService {
     private final AdsRepository adsRepository;
-    private final CommentRepository commentRepository;
     private final ImageRepository imageRepository;
     private final UserRepository userRepository;
     private final ImageService imageService;
     private final AdsMapper adsMapper;
-    private final CommentMapper commentMapper;
 
-    public Collection<Ads> getAllAds() {
-        return adsRepository.findAll();
+    public List<AdsDTO> getAllAds() {
+        return adsRepository.findAll()
+                .stream()
+                .map(adsMapper::toDto)
+                .collect(Collectors.toList());
     }
-    public Ads addAds(CreateAdsDTO createAdsDTO, MultipartFile multipartFile, String userName) throws Exception {
-        User user = userRepository.findByUserName(userName)
-                .orElseThrow(() -> new Exception("Not found user"));
-        Ads ads = adsMapper.toEntity(createAdsDTO);
+    public AdsDTO addAds(CreateAdsDTO createAdsDto, MultipartFile adsImage, Authentication authentication) throws Exception {
+        User user = userRepository.findByUsernameIgnoreCase(authentication.getName()).orElseThrow(() -> new Exception("User no found"));
+        Ads ads = adsMapper.toEntity(createAdsDto);
         ads.setAuthor(user);
-        ads.setImage(imageService.uploadImage(multipartFile));
-        return adsRepository.save(ads);
+        Image image = imageService.uploadImage(adsImage);
+        ads.setImage(image);
+        return adsMapper.toDto(adsRepository.save(ads));
     }
-        public FullAdsDTO getFullAds(long id) throws Exception {
-            return adsMapper.toFullAdsDto(adsRepository.findById(id)
-                    .orElseThrow(() -> new Exception("Not found ad")));
-    }
-
-
+    public FullAdsDTO getFullAds(Integer id) throws Exception {
+        return adsMapper.toFullAdsDto(adsRepository.findById(id).orElseThrow(() -> new Exception("Ad not found")));
 
     }
+    public Ads getAdsById(Integer id) {
+        return adsRepository.findById(id).orElseThrow(
+                () -> new ResponseStatusException(
+                        HttpStatus.NOT_FOUND, "Not found"));
+    }
+    public void removeAdsById(Integer adsId) {
+        Ads ads = getAdsById(adsId);
+        adsRepository.delete(ads);
+    }
+    public AdsDTO updateAds(Integer id, CreateAdsDTO createAdsDto) {
+        Ads ads = getAdsById(id);
+        ads.setTitle(createAdsDto.getTitle());
+        ads.setDescription(createAdsDto.getDescription());
+        ads.setPrice(createAdsDto.getPrice());
+        adsRepository.save(ads);
+        return adsMapper.toDto(ads);
+    }
+    public List<AdsDTO> getAdsAuthorizedUsers(Authentication authentication) {
+        return adsRepository.findAllByAuthor_Username(authentication.getName())
+                .stream()
+                .map(adsMapper::toDto)
+                .collect(Collectors.toList());
+    }
+    public void updateAdsImage(Integer id, MultipartFile image) throws IOException {
+        Ads ads = getAdsById(id);
+        imageRepository.delete(ads.getImage());
+        ads.setImage(imageService.uploadImage(image));
+        adsRepository.save(ads);
+    }
+}
+

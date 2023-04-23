@@ -4,17 +4,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import lombok.Data;
+
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class FullAdsDTO  {
-    private Long pk;
+public class FullAdsDTO {
+
     private String image;
-    private String firstName;
-    private String lastName;
+    private String authorLastName;
+    private String authorFirstName;
     private String phone;
-    private Integer price;
-    private String title;
+    private int price;
     private String description;
-    private String userName;
+    private Integer pk;
+    private String title;
+    private String email;
 }

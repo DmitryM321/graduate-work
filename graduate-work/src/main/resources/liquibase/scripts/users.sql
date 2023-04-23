@@ -2,12 +2,13 @@
 
 -- changeset dmatveev:1
 create table users(
-    id                       BIGSERIAL PRIMARY KEY,
-    first_name              VARCHAR(255),
-    last_name              VARCHAR(255),
-    user_name                    VARCHAR(255),
-    password_auth            VARCHAR(255),
-    phone                   VARCHAR(255),
-    image_id                BIGINT  REFERENCES image (id),
-    role_auth     VARCHAR(255)
+    id                  SERIAL PRIMARY KEY,
+    first_name          VARCHAR(255),
+    last_name           VARCHAR(255),
+    username            VARCHAR(255),
+    password            VARCHAR(255) NOT NULL,
+    enabled             BOOLEAN,
+    phone               VARCHAR(255) NOT NULL,
+    image_id            INTEGER  REFERENCES image (id),
+    role                VARCHAR(255)
 );
