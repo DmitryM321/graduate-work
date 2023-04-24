@@ -4,58 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6c63f7-6f90-418f-8bc8-db738744e6a4" name="Changes" comment="graduate-work 03">
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/config/MultipartJackson2HttpMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/config/security/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/config/security/UserDetailsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/impl/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="3e6c63f7-6f90-418f-8bc8-db738744e6a4" name="Changes" comment="graduate-work 04">
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/AdsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/AuthControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/CommentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/AdsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/AuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/CommentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/ImageServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/HomeworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/HomeworkApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/AdsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/AdsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsCommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsCommentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/CreateAdsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/CreateAdsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduate-work/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/CreateUserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/FullAdsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/FullAdsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/LoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/LoginReq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/NewPasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/NewPasswordDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/RegisterReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/RegisterReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/AdsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/AdsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/CommentMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/MapperScheme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Ads.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Ads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/AdsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/AdsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/ImageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/response/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/response/ResponseWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/response/ResponseWrapperAdDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/response/ResponseWrapperCommentDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/AdsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/AdsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/impl/AuthServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/changelog-master.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/ads.sql" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/ads.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/comment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/comment.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/image.sql" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/image.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/resources/liquibase/scripts/users.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +44,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="99fe9250-7b2d-4087-9ff5-cdadd134569e" />
+        <option name="url" value="https://github.com/DmitryM321/graduate-work.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -108,7 +88,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dmitry/Documents/IdeaProjects/example-for-graduate-work-main",
+    "last_opened_file_path": "/home/dmitry/Documents/IdeaProjects/example-for-graduate-work-main/graduate-work/src/test/java/ru/skypro/homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,7 +110,83 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CommentServiceTest">
+    <configuration name="CommentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.skypro.homework.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.skypro.homework.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.skypro.homework.service.CommentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentServiceTest.testAddAdsComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.skypro.homework.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.skypro.homework.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.skypro.homework.service.CommentServiceTest" />
+      <option name="METHOD_NAME" value="testAddAdsComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageServiceTest.testDeleteImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.skypro.homework.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.skypro.homework.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.skypro.homework.service.ImageServiceTest" />
+      <option name="METHOD_NAME" value="testDeleteImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageServiceTest.testSaveUploadImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.skypro.homework.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.skypro.homework.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.skypro.homework.service.ImageServiceTest" />
+      <option name="METHOD_NAME" value="testSaveUploadImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework in ads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ads" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ads" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.skypro.homework.HomeworkApplication" />
@@ -138,6 +194,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CommentServiceTest" />
+        <item itemvalue="JUnit.homework in ads" />
+        <item itemvalue="JUnit.ImageServiceTest.testSaveUploadImage" />
+        <item itemvalue="JUnit.ImageServiceTest.testDeleteImage" />
+        <item itemvalue="JUnit.CommentServiceTest.testAddAdsComment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -170,7 +235,7 @@
       <workItem from="1681980068288" duration="1749000" />
       <workItem from="1681982290388" duration="16813000" />
       <workItem from="1682058084601" duration="10622000" />
-      <workItem from="1682271476291" duration="10466000" />
+      <workItem from="1682271476291" duration="22124000" />
     </task>
     <task id="LOCAL-00001" summary="graduate-work 01">
       <created>1681728699272</created>
@@ -193,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681908201406</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="graduate-work 04">
+      <created>1682282266362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682282266362</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +289,21 @@
     <MESSAGE value="graduate-work 01" />
     <MESSAGE value="graduate-work 02" />
     <MESSAGE value="graduate-work 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="graduate-work 03" />
+    <MESSAGE value="graduate-work 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="graduate-work 04" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/example_for_graduate_work_main$UserServiceTest_testUpdateUser.ic" NAME="UserServiceTest.testUpdateUser Coverage Results" MODIFIED="1682284106249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.skypro.homework.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/example_for_graduate_work_main$CommentControllerTest.ic" NAME="CommentControllerTest Coverage Results" MODIFIED="1682284063876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.skypro.homework.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/example_for_graduate_work_main$AdsServiceTest.ic" NAME="AdsServiceTest Coverage Results" MODIFIED="1682284173833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.skypro.homework.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/example_for_graduate_work_main$CommentServiceTest.ic" NAME="CommentServiceTest Coverage Results" MODIFIED="1682314114460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.skypro.homework.service.*</FILTER>
+    </SUITE>
   </component>
 </project>
