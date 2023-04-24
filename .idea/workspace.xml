@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6c63f7-6f90-418f-8bc8-db738744e6a4" name="Changes" comment="graduate-work 04">
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/AdsControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/AuthControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/CommentControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/controller/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/AdsServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/AuthServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/CommentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/ImageServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/CreateUserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/NewPasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/NewPasswordDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/mapper/MapperScheme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/response/ResponseWrapperAdDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/response/ResponseWrapperCommentDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/service/impl/AuthServiceImpl.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3e6c63f7-6f90-418f-8bc8-db738744e6a4" name="Changes" comment="graduate-work 05" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +216,7 @@
       <workItem from="1681980068288" duration="1749000" />
       <workItem from="1681982290388" duration="16813000" />
       <workItem from="1682058084601" duration="10622000" />
-      <workItem from="1682271476291" duration="22124000" />
+      <workItem from="1682271476291" duration="22752000" />
     </task>
     <task id="LOCAL-00001" summary="graduate-work 01">
       <created>1681728699272</created>
@@ -265,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682282266362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="graduate-work 05">
+      <created>1682317473036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682317473036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +278,8 @@
     <MESSAGE value="graduate-work 02" />
     <MESSAGE value="graduate-work 03" />
     <MESSAGE value="graduate-work 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="graduate-work 04" />
+    <MESSAGE value="graduate-work 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="graduate-work 05" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/example_for_graduate_work_main$UserServiceTest_testUpdateUser.ic" NAME="UserServiceTest.testUpdateUser Coverage Results" MODIFIED="1682284106249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
