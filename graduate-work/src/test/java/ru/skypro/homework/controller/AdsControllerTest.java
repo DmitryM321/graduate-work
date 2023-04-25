@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.transaction.annotation.Transactional;
-import ru.skypro.homework.config.security.UserDetailsManager;
+import ru.skypro.homework.service.UserDetailsManager;
 import ru.skypro.homework.dto.CreateAdsDTO;
 import ru.skypro.homework.model.Role;
 import ru.skypro.homework.model.Ads;

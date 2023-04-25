@@ -55,5 +55,7 @@ public class CommentService {
     public Comment getComment(Integer commentId, Integer adId) throws Exception {
         return commentRepository.findByIdAndAdsId(commentId, adId).orElseThrow(Exception::new);
     }
+    public Comment getById(Integer commentId) throws Exception {
+        return commentRepository.findById(commentId).orElseThrow(Exception::new);
+    }
 }
-

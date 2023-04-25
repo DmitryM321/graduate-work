@@ -9,7 +9,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.skypro.homework.dto.RegisterReq;
 import ru.skypro.homework.service.impl.AuthService;
 import ru.skypro.homework.model.User;
-import ru.skypro.homework.config.security.UserDetailsManager;
 
 import java.util.ArrayList;
 
@@ -24,7 +23,7 @@ public class AuthServiceTest {
     @Mock
     private UserDetailsManager manager;
     @Test
-    public void testAuthenticateUserOnCallingLoginMethod() {
+    public void testAuthenticateUserOnCallingLoginMethod() throws Exception {
         String userName = "AuthServiceTest";
         String password = "password";
         String encodedPassword = "passwordPassword";

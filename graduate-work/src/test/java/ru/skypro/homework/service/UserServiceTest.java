@@ -28,7 +28,7 @@ public class UserServiceTest {
     private UserMapper userMapper;
     @Test
     public void testGetAuthorizedUsers() {
-        String username = "User";
+        String username = "newUser";
         User user = new User();
         user.setUsername(username);
         UserDTO userDTO = new UserDTO();
@@ -44,14 +44,14 @@ public class UserServiceTest {
     }
     @Test
     public void testUpdateUser() throws Exception {
-        String username = "testuser";
+        String username = "newUser";
         User user = new User();
         user.setUsername(username);
         UserDTO userDTO = new UserDTO();
         userDTO.setUsername(username);
-        userDTO.setFirstName("Roman");
-        userDTO.setLastName("Sokolov");
-        userDTO.setPhone("123456789");
+        userDTO.setFirstName("Fist");
+        userDTO.setLastName("Second");
+        userDTO.setPhone("+79297175555");
         when(userRepository.findByUsernameIgnoreCase(username)).thenReturn(Optional.of(user));
         when(userMapper.toDto(user)).thenReturn(userDTO);
         Authentication authentication = mock(Authentication.class);

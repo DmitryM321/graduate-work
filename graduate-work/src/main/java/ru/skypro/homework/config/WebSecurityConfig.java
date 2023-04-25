@@ -19,7 +19,8 @@ public class WebSecurityConfig {
           "/login",
           "/register",
           "/ads",
-          "/ads/image/**"
+          "/ads/image/**",
+          "/users/image/**"
   };
   @Bean
   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
