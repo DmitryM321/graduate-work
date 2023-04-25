@@ -2,7 +2,6 @@ package ru.skypro.homework.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-
 @Data
 public class AdsCommentDTO {
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
@@ -16,4 +15,5 @@ public class AdsCommentDTO {
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private Integer pk;
     private String text;
+
 }
