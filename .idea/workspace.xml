@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6c63f7-6f90-418f-8bc8-db738744e6a4" name="Changes" comment="graduate-work 05" />
+    <list default="true" id="3e6c63f7-6f90-418f-8bc8-db738744e6a4" name="Changes" comment="graduate-work 07">
+      <change afterPath="$PROJECT_DIR$/graduate-work/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsCommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsCommentDTO.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +30,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -38,6 +42,9 @@
         <option name="url" value="https://github.com/DmitryM321/graduate-work.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/graduate-work/src/main/java/ru/skypro/homework/dto/AdsCommentDTO.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,9 +74,8 @@
     "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dmitry/Documents/IdeaProjects/example-for-graduate-work-main/graduate-work/src/test/java/ru/skypro/homework",
+    "last_opened_file_path": "/home/dmitry/Documents/IdeaProjects/example-for-graduate-work-main (copy)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +102,7 @@
       <recent name="$PROJECT_DIR$/graduate-work/src/test/java/ru/skypro/homework" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommentServiceTest">
+  <component name="RunManager" selected="Spring Boot.HomeworkApplication">
     <configuration name="CommentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ads" />
       <extension name="coverage">
@@ -217,6 +223,7 @@
       <workItem from="1681982290388" duration="16813000" />
       <workItem from="1682058084601" duration="10622000" />
       <workItem from="1682271476291" duration="22752000" />
+      <workItem from="1682496785483" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="graduate-work 01">
       <created>1681728699272</created>
@@ -253,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682317473036</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="graduate-work 07">
+      <created>1682429368795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682429368795</updated>
+    </task>
+    <task id="LOCAL-00007" summary="graduate-work 07">
+      <created>1682497479280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682497479280</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +300,8 @@
     <MESSAGE value="graduate-work 03" />
     <MESSAGE value="graduate-work 04" />
     <MESSAGE value="graduate-work 05" />
-    <option name="LAST_COMMIT_MESSAGE" value="graduate-work 05" />
+    <MESSAGE value="graduate-work 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="graduate-work 07" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/example_for_graduate_work_main$UserServiceTest_testUpdateUser.ic" NAME="UserServiceTest.testUpdateUser Coverage Results" MODIFIED="1682284106249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
