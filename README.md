@@ -26,7 +26,7 @@
 - Liquibase 
 - Mockito
 - Docker image
-- Git
+  - Git
 - REST 
 
 Для запуска приложения необходимо:

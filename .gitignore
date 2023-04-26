@@ -1,3 +1,4 @@
 #idea folder and target
 .idea/
-.target/
+target/
+ads.iml
